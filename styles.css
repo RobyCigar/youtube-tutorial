@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+body {
+	background: black;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 80px;
+	font-family: "Inter", sans-serif;
+	height: 100vh;
+	width: 100vw;
+}
+
+#cursor {
+	z-index: 1;
+	position: fixed;
+	height: 150px; 
+	width: 150px;
+	background: white;
+	mix-blend-mode: difference;
+	animation: morphing 6s ease infinite;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+@keyframes morphing {
+	20% {
+		border-radius: 26% 74% 50% 50% / 57% 51% 49% 43%;
+	}
+	40% {
+		border-radius: 53% 47% 29% 71% / 40% 69% 31% 60%;
+	}
+	60% {
+		border-radius: 27% 73% 25% 75% / 23% 30% 70% 77%;
+	}
+	80% {
+		border-radius: 27% 73% 25% 75% / 70% 67% 33% 30%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+body {
+	background: black;
+}
+
+#cursor {
+	position: fixed;
+	height: 150px;
+	width: 150px;
+	background: white;
+	mix-blend-mode: difference;
+	border-radius: 30% 70% 70% 30% / 30% 16% 84% 70% ;
+	animation: morphing 5s ease infinite;
+}
+
+@keyframes morphing {
+	20% {
+		border-radius: 29% 71% 80% 20% / 25% 50% 50% 75%;
+	}
+	40% {
+		border-radius: 40% 60% 59% 41% / 58% 68% 32% 42%;
+	}
+	60% {
+		border-radius: 28% 72% 38% 62% / 68% 85% 15% 32%;	
+	}
+	80% {
+		border-radius: 28% 72% 38% 62% / 37% 34% 66% 63%;
+	}
+}
+
+
+h1 {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Inter", sans-serif;
+	font-size: 80px;
+	color: white;
+}*/
